@@ -5,7 +5,7 @@ This repository contains the implementation of a hybrid stock price prediction m
 ## Details
 
 ### Data
-The dataset consists of historical stock data for Alphabet Inc. (Google) over the past ten years (from 2014-02-03 to 2024-02-01). The data was sourced from Yahoo Finance [here](https://finance.yahoo.com/quote/GOOG/history/), which consists of 2225 article and summary text files in .txt format. The dataset has been preprocessed and converted into a CSV file named `bbc_news.csv`. and includes 2517 entries. The adjusted closing price (Adj Close) was used for training and testing the model, as it is considered more accurate than the closing price (Close).
+The dataset consists of historical stock data for Alphabet Inc. (Google) over the past ten years (from 2014-02-03 to 2024-02-01). The data was sourced from Yahoo Finance [here](https://finance.yahoo.com/quote/GOOG/history/), and includes 2517 entries. The adjusted closing price (Adj Close) was used for training and testing the model, as it is considered more accurate than the closing price (Close).
 
 <div align="center">
     <img src="images/Picture1.png" alt="img1">
